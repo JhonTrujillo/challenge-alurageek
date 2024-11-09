@@ -1,0 +1,230 @@
+/* reseteamos los estilos predeterminados del navegador */
+* {
+    box-sizing: border-box;
+    font-family: "Work Sans";
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: beige;
+}
+
+/* header */
+header {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5D04D9;
+    color: white;
+}
+
+/* main contenedor global */
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+/* Contenedor Section productos */
+.main__productos {
+    width: 60%;
+    z-index: 1;
+}
+
+/* title productos */
+.productos__title {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Subcontenedor de las card */
+.productos__cards {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 2px 2px 2px 2px #5f5d5f;
+    margin: 20px;
+    overflow-y: scroll;
+}
+
+/* card main__productos */
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 180px;
+    height: 220px;
+    border: solid 5px black;
+    border-radius: 20px;
+    background: #9303a6;
+    margin: 20px;
+}
+
+ /* imagen card */
+.card img {
+    width: 150px;
+    height: 150px;
+    border: solid 3px black;
+    border-radius: 20px;
+}
+
+/* descripcion producto */
+.card-container--info p {
+    color: white;
+    margin-top: 5px;
+}
+
+/* precio producto */
+.card-container--value {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.card-container--value p {
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.card-container--value i {
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+
+/* Contenedor Section Formulario */
+.main__formulario {
+    width: 40%;
+}
+
+/* title formulario */
+.formulario__title {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Subcontenedor formulario */
+.formulario__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* contenedor formulario */
+.form__form {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* box-shadow: 2px 2px 2px 5px #ca23ca;   */
+    margin: 20px;
+}
+
+/* imagen add formulario */
+.form__icon {
+    font-size: 50px;
+    padding: 30px;
+}
+
+/* input formulario */
+.form__input {
+    width: 70%;
+    height: 50px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: solid 2px #03318C;
+    border-radius: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* boton enviar formulario */
+.form__btnenviar {
+    width: 200px;
+    height: 50px;
+    background-color: #03318C;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+/* boton limpiar formulario */
+.form__btnlimpiar {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border: solid 2px #03318C;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #03318C;
+    cursor: pointer;
+}
+
+/* FOOTER */
+/* contenedor footer */
+.footer {
+    width: 100%;
+    background-color: #5D04D9;
+    color: #fff;
+    text-align: center;
+}
+
+/* subcontenedor redes */
+.footer__redes {
+    margin-bottom: 10px;
+}
+
+/* link redes */
+.footer__redes a {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    /* margin: 40px 5px; */
+    font-size: 20px;
+    /* transition: .3s; */
+}
+
+.footer p {
+    font-size: 20px;
+}
+
+/* Responsive */
+
+@media (max-width: 1250px) {
+    .main {
+        display: block;
+        /* padding: 10px; */
+    }
+
+    .main__productos {
+        width: 100%;
+    }
+
+    .main__formulario {
+        width: 100%;
+    }
+}
