@@ -4,20 +4,19 @@
             "id":1,
             "imagen": "./assets/producto1.png",
             "descripcion": "Redmi Buds 6 Active",
-            "valor": "$ 89.000 COP"
+            "valor": "$89.000"
         },
         {
             "id":2,
-            "imagen": "./assets/producto1.png",
-            "descripcion": "Note 8 Pro",
-            "valor": "$ 89.000 COP"
+            "imagen": "./assets/note8pro.png",
+            "descripcion": " Redmi Note 8 Pro",
+            "valor": "$499.000"
         },
         {
             "id":3,
-            "imagen": "./assets/producto1.png",
-            "descripcion": "laptop",
-            "valor": "$ 89.000 COP"
+            "imagen": "./assets/Portátil Gamer ASUS TUF.png",
+            "descripcion": "ASUS TUF 15.6 pulg",
+            "valor": "$3.500.000"
         }
-
     ]
 }
