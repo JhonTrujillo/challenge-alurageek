@@ -116,8 +116,6 @@
                         </div>
                     </div>
                 </div> -->
-
-               
             </div>
 
         </section>
@@ -126,13 +124,13 @@
                 <h1>AGREGAR PRODUCTO:</h1>
             </div>
             <div class="formulario__form">
-                <form action="" class="form__form">
+                <form action="" class="form__form" data-formulario>
                     <i class="fa-solid fa-file-circle-plus form__icon"></i>
-                    <input type="text" class="form__input" placeholder="nombre...">
-                    <input type="text" class="form__input" placeholder="precio...">
-                    <input type="text" class="form__input" placeholder="imagen...">
+                    <input type="text" class="form__input" placeholder="nombre..." data-descripcion>
+                    <input type="text" class="form__input" placeholder="valor..." data-valor>
+                    <input type="text" class="form__input" placeholder="url imagen..." data-imagen>
                     <div form__buttons>
-                        <button class="form__btnenviar">
+                        <button class="form__btnenviar" type="submit">
                             Enviar
                             <i class="fa-solid fa-paper-plane"></i>
                             <span class="overlay"></span>
@@ -162,6 +160,7 @@
     </footer>
     <script src="https://kit.fontawesome.com/e425e7a0eb.js" crossorigin="anonymous"></script>
 <script src="./js/mostrarProductos.js" type="module"></script>
+<script type="module" src="./js/crearProducto.js"></script>
 </body>
 
 </html>

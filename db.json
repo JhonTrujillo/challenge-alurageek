@@ -1,22 +1,22 @@
 {
-    "productos":[
-        {
-            "id":1,
-            "imagen": "./assets/producto1.png",
-            "descripcion": "Redmi Buds 6 Active",
-            "valor": "$89.000"
-        },
-        {
-            "id":2,
-            "imagen": "./assets/note8pro.png",
-            "descripcion": " Redmi Note 8 Pro",
-            "valor": "$499.000"
-        },
-        {
-            "id":3,
-            "imagen": "./assets/Portátil Gamer ASUS TUF.png",
-            "descripcion": "ASUS TUF 15.6 pulg",
-            "valor": "$3.500.000"
-        }
-    ]
+  "productos": [
+    {
+      "id": "ba88",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/PSX-Console-wController.png/250px-PSX-Console-wController.png",
+      "descripcion": "Play Station 1",
+      "valor": "250.000"
+    },
+    {
+      "id": "19d8",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Playstation_logo_colour.svg/100px-Playstation_logo_colour.svg.png",
+      "descripcion": "Play Station 1",
+      "valor": "$500.000"
+    },
+    {
+      "id": "d8b7",
+      "imagen": "https://m.media-amazon.com/images/I/61pETE6v4vL.jpg",
+      "descripcion": "Play Station 2",
+      "valor": "$600.000"
+    }
+  ]
 }
