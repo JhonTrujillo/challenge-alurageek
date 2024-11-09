@@ -1,0 +1,23 @@
+{
+    "productos":[
+        {
+            "id":1,
+            "imagen": "./assets/producto1.png",
+            "descripcion": "Redmi Buds 6 Active",
+            "valor": "$ 89.000 COP"
+        },
+        {
+            "id":2,
+            "imagen": "./assets/producto1.png",
+            "descripcion": "Note 8 Pro",
+            "valor": "$ 89.000 COP"
+        },
+        {
+            "id":3,
+            "imagen": "./assets/producto1.png",
+            "descripcion": "laptop",
+            "valor": "$ 89.000 COP"
+        }
+
+    ]
+}
