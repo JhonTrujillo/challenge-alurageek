@@ -9,18 +9,20 @@ function crearCard(imagen, descripcion, valor) {
                     <div class="card-container--info">
                         <p>${descripcion}</p>
                         <div class="card-container--value">
-                            <p>${valor}</p>
-                            <i class="fa-regular fa-trash-can"></i>
+                            <p>$${valor}</p>
+                            <button class="btn-delete">
+                                <i class="fa-regular fa-trash-can"></i>
+                            </button>
                         </div>
                     </div>`;
 
     return producto;
 }
 
-async function listarProductos(){
+async function listarProductos() {
     const listaAPI = await conexionAPI.listarProductos();
 
-    listaAPI.forEach(producto => lista.appendChild(crearCard(producto.imagen, producto.descripcion, producto.valor)));
+    listaAPI.forEach(producto => lista.appendChild(crearCard(producto.imagen, producto.descripcion, producto.valor, producto.id,)));
 };
 
 

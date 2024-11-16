@@ -1,8 +1,8 @@
 import { conexionAPI } from "./conexionAPI.js";
 
-const formulario = document.querySelector("[data-formulario]");
+const dlt = document.querySelector("[data-lista]");
 
-async function crearProductos(evento){
+async function eliminarProductos(evento){
 
     evento.preventDefault();
 
@@ -10,11 +10,10 @@ async function crearProductos(evento){
     const descripcion = document.querySelector("[data-descripcion]").value;
     const valor = document.querySelector("[data-valor]").value;
 
-   
-
-    await conexionAPI.enviarProductos(imagen,descripcion,valor);
-    window.location.href="../envio-concluido.html";
+    await conexionAPI.deleteProductos(imagen,descripcion,valor);
+    // window.location.href="../envio-concluido.html";
 }
-formulario.addEventListener("submit",evento=> crearProductos(evento));
+dlt.addEventListener("click",evento => eliminarProductos(evento));
+
 
 // console.log(formulario);

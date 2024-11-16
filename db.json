@@ -1,22 +1,16 @@
 {
   "productos": [
     {
-      "id": "ba88",
+      "id": "2efb",
       "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/PSX-Console-wController.png/250px-PSX-Console-wController.png",
       "descripcion": "Play Station 1",
       "valor": "250.000"
     },
     {
-      "id": "19d8",
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Playstation_logo_colour.svg/100px-Playstation_logo_colour.svg.png",
-      "descripcion": "Play Station 1",
-      "valor": "$500.000"
-    },
-    {
-      "id": "d8b7",
-      "imagen": "https://m.media-amazon.com/images/I/61pETE6v4vL.jpg",
-      "descripcion": "Play Station 2",
-      "valor": "$600.000"
+      "id": "f60f",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_688912-MLU75118883719_032024-O.webp",
+      "descripcion": "Funko Harry Poter",
+      "valor": "80.000"
     }
   ]
 }
